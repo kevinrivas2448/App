@@ -1,6 +1,33 @@
 /* Empty. Add your own CSS if you like */
+.minitxt{
+  font-family: 'Acme', sans-serif;
+  text-align: center;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 20px;
+}
+.title1{
+  font-family: 'Gloria Hallelujah', cursive;
+  color: #f7ff00;
+  font-size: 40px;
+  text-align: center;
+}
+.padding{
+  background-image: url(../img/fondo1.jpg);
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.title2{
+  text-align: center;
+  font-family: 'Gloria Hallelujah', cursive;
+  color: #9fe935;
+}
 .dna {
   width: 10em;
+  height: 8em;
   margin: 0 auto;
   padding: 1em;
   perspective: 60em;
@@ -10,95 +37,95 @@
 .dna .protein {
   margin: 0 1em 1em;
   width: 8em;
-  height: 1em;
+  height: 4px;
   transform-style: preserve-3d;
   animation: rot 2s linear infinite;
   position: relative;
 }
 .dna .protein:nth-of-type(20) {
   animation-delay: 2s;
-  background: linear-gradient(to right, #2980b9 50%, #f1c40f 50%);
+  background: linear-gradient(to right, #FF0000 50%, #2613ed 50%);
 }
 .dna .protein:nth-of-type(19) {
   animation-delay: 1.9s;
-  background: linear-gradient(to right, #2ecc71 50%, #2ecc71 50%);
+  background: linear-gradient(to right, #FF0000 50%, #2613ed 50%);
 }
 .dna .protein:nth-of-type(18) {
   animation-delay: 1.8s;
-  background: linear-gradient(to right, #2980b9 50%, #2980b9 50%);
+  background: linear-gradient(to right, #FF0000 50%, #2613ed 50%);
 }
 .dna .protein:nth-of-type(17) {
   animation-delay: 1.7s;
-  background: linear-gradient(to right, #2980b9 50%, #f1c40f 50%);
+  background: linear-gradient(to right, #FF0000 50%, #2613ed 50%);
 }
 .dna .protein:nth-of-type(16) {
   animation-delay: 1.6s;
-  background: linear-gradient(to right, #e67e22 50%, #e67e22 50%);
+  background: linear-gradient(to right, #FF0000 50%, #2613ed 50%);
 }
 .dna .protein:nth-of-type(15) {
   animation-delay: 1.5s;
-  background: linear-gradient(to right, #f1c40f 50%, #2980b9 50%);
+  background: linear-gradient(to right, #FF0000 50%, #2613ed 50%);
 }
 .dna .protein:nth-of-type(14) {
   animation-delay: 1.4s;
-  background: linear-gradient(to right, #e67e22 50%, #f1c40f 50%);
+  background: linear-gradient(to right, #FF0000 50%, #2613ed 50%);
 }
 .dna .protein:nth-of-type(13) {
   animation-delay: 1.3s;
-  background: linear-gradient(to right, #2980b9 50%, #2980b9 50%);
+  background: linear-gradient(to right, #FF0000 50%, #2613ed 50%);
 }
 .dna .protein:nth-of-type(12) {
   animation-delay: 1.2s;
-  background: linear-gradient(to right, #2980b9 50%, #f1c40f 50%);
+  background: linear-gradient(to right, #FF0000 50%, #2613ed 50%);
 }
 .dna .protein:nth-of-type(11) {
   animation-delay: 1.1s;
-  background: linear-gradient(to right, #2980b9 50%, #2ecc71 50%);
+  background: linear-gradient(to right, #FF0000 50%, #2613ed 50%);
 }
 .dna .protein:nth-of-type(10) {
   animation-delay: 1s;
-  background: linear-gradient(to right, #2ecc71 50%, #2ecc71 50%);
+  background: linear-gradient(to right, #FF0000 50%, #2613ed 50%);
 }
 .dna .protein:nth-of-type(9) {
   animation-delay: 0.9s;
-  background: linear-gradient(to right, #2980b9 50%, #2ecc71 50%);
+  background: linear-gradient(to right, #FF0000 50%, #2613ed 50%);
 }
 .dna .protein:nth-of-type(8) {
   animation-delay: 0.8s;
-  background: linear-gradient(to right, #e67e22 50%, #e67e22 50%);
+  background: linear-gradient(to right, #FF0000 50%, #2613ed 50%);
 }
 .dna .protein:nth-of-type(7) {
   animation-delay: 0.7s;
-  background: linear-gradient(to right, #e67e22 50%, #2ecc71 50%);
+  background: linear-gradient(to right, #FF0000 50%, #2613ed 50%);
 }
 .dna .protein:nth-of-type(6) {
   animation-delay: 0.6s;
-  background: linear-gradient(to right, #f1c40f 50%, #e67e22 50%);
+  background: linear-gradient(to right, #FF0000 50%, #2613ed 50%);
 }
 .dna .protein:nth-of-type(5) {
   animation-delay: 0.5s;
-  background: linear-gradient(to right, #2ecc71 50%, #e67e22 50%);
+  background: linear-gradient(to right, #FF0000 50%, #2613ed 50%);
 }
 .dna .protein:nth-of-type(4) {
   animation-delay: 0.4s;
-  background: linear-gradient(to right, #e67e22 50%, #2ecc71 50%);
+  background: linear-gradient(to right, #FF0000 50%, #2613ed 50%);
 }
 .dna .protein:nth-of-type(3) {
   animation-delay: 0.3s;
-  background: linear-gradient(to right, #e67e22 50%, #e67e22 50%);
+  background: linear-gradient(to right, #FF0000 50%, #2613ed 50%);
 }
 .dna .protein:nth-of-type(2) {
   animation-delay: 0.2s;
-  background: linear-gradient(to right, #2980b9 50%, #e67e22 50%);
+  background: linear-gradient(to right, #FF0000 50%, #2613ed 50%);
 }
 .dna .protein:nth-of-type(1) {
   animation-delay: 0.1s;
-  background: linear-gradient(to right, #f1c40f 50%, #2980b9 50%);
+  background: linear-gradient(to right, #FF0000 50%, #2613ed 50%);
 }
 .dna .protein b {
   width: 1em;
   height: 2.7em;
-  background: #e74c3c;
+  background: #FF0000;
   transform-origin: 0 center;
   transform: rotateX(-40deg);
   position: absolute;
@@ -109,7 +136,7 @@
   transform: rotateX(40deg);
   left: auto;
   right: -1em;
-  background-color: #3498db;
+  background-color: #2613ed;
 }
 .dna .protein:last-child b {
   display: none;
@@ -122,10 +149,78 @@
     transform: rotateY(360deg);
   }
 }
-html,
-body {
-  height: 100%;
+.infogra{
+  margin-top: 290px;
+  text-align: center;
+  font-family: 'Gloria Hallelujah', cursive;
+  color: #FFFFFF;
 }
-body {
-  background: linear-gradient(135deg, #160C23, #7B6762);
+.infografi{
+  width: 100%;
+  border-radius: 5%;
+  margin-top: 6px;
+}
+.gifi{
+  width: 100%;
+  height: 250px;
+  border-radius: 5%;
+}
+.gifititles{
+  text-align: center;
+  color: #FFFFFF;
+  font-family: 'Gloria Hallelujah';
+  font-size: 30px;
+}
+.gifix{
+  width: 100%;
+  height: 230px;
+  border-radius: 5%;
+}
+.contaner {
+  width: 350px;
+  margin: 80px auto;
+  padding: 50px;
+  border: 10px solid grey;
+  height: 420px;
+  box-shadow: 10px 10px 15px grey;
+  margin-top: -5px;
+}
+.card {
+  float: left;
+  width: 70px;
+  height: 70px;
+  margin: 5px;
+  background-color: lightblue;
+  box-shadow: 4px 4px 10px grey;
+  text-align: center;
+  cursor: pointer;    
+}
+  div[data-card-value] {
+    font-size: 200%;
+    color: grey;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.result {
+  background-color: lightblue;
+  padding: 20px;
+  color: grey;
+  text-shadow: 2px 2px 5px grey;
+  text-align: center;
+}
+.playAgain {
+  background-color: grey;
+  color: lightblue;
+  padding: 5px;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+.contaner h2 {
+  text-align: center;
+  margin-top: -40px;
+  color: grey;
+  text-shadow: 4px 4px 5px lightblue;
+  font-size: 150%;
 }

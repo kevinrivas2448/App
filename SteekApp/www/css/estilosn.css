@@ -1,0 +1,26 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,figure{border:0;font-family:inherit;font-size:100%;font-style:inherit;font-weight:inherit;margin:0;outline:0;padding:0;vertical-align:top;}
+body{background:url("http://elmaguire.com/assets/squairy_light.png");font:16px Helvetica;line-height:1.2em;margin-bottom:3em;width:100%;}
+html{overflow-y:scroll;}
+#navegacionSup{background:rgba(0,0,0,0.6);display:block;bottom:0;position:fixed;height:2em;padding:0 0 .4em 0;box-shadow:rgba(0,0,0,0.4) 0 -.2em .3em;-webkit-box-shadow:rgba(0,0,0,0.4) 0 -.2em .3em;width:100%;z-index:99;}
+#navegacionSup li{display:inline-block;vertical-align:top;list-style:none;margin:0 .4em;}
+#navegacionSup ul{margin-right:1em;text-align:right;}
+.ejemplo{margin:0 auto;max-width:960px;padding-top:.5em;width:100%;}
+.a_demo_two{color:#fff;font-size:.8em;padding:.4em .8em;position:relative;-webkit-border-radius:.5em;-moz-border-radius:.5em;border-radius:.5em;text-decoration:none;}
+.a_demo_two::before{content:"";display:block;height:100%;left:-2px;padding:0 2px 4px;position:absolute;-webkit-border-radius:.6em;-moz-border-radius:.6em;border-radius:.6em;box-shadow:0 1px 1px rgba(255,255,255,0.6);-webkit-box-shadow:0 1px 1px rgba(255,255,255,0.6);top:5px;width:100%;z-index:-1;}
+.a_demo_two:active{text-shadow:0 1px 1px rgba(255,255,255,0.3);top:7px;}
+.a_demo_two:active::before{top:-2px;}
+.articulo{background-color:#ff7f00;box-shadow:inset 0 1px 0 #efca7f,0 6px 0 #844e15;-webkit-box-shadow:inset 0 1px 0 #efca7f,0 6px 0 #844e15;}
+.articulo::before{background:#382607;}
+.articulo:active{background:#c9852c;color:#844e15;box-shadow:inset 0 1px 0 #efca7f,inset 0 -1px 0 #844e15;-webkit-box-shadow:inset 0 1px 0 #efca7f,inset 0 -1px 0 #844e15;}
+.boton,.crono{border-radius:1em;box-shadow:rgba(0,0,0,0.9) 0 0 8px,rgba(255,255,255,0.9) 0 1px 0 inset;color:#fff;height:1em;display:inline-block;filter:none;margin:0 15px 0 0;padding:1.2em 0;vertical-align:middle;width:15%;background:#9dd53a;background:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjOWRkNTNhIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iNTAlIiBzdG9wLWNvbG9yPSIjYTFkNTRmIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iNTElIiBzdG9wLWNvbG9yPSIjODBjMjE3IiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzdjYmMwYSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);background:-moz-linear-gradient(-45deg,#9dd53a 0%,#a1d54f 50%,#80c217 51%,#7cbc0a 100%);background:-webkit-gradient(linear,left top,right bottom,color-stop(0%,#9dd53a),color-stop(50%,#a1d54f),color-stop(51%,#80c217),color-stop(100%,#7cbc0a));background:-webkit-linear-gradient(-45deg,#9dd53a 0%,#a1d54f 50%,#80c217 51%,#7cbc0a 100%);background:-o-linear-gradient(-45deg,#9dd53a 0%,#a1d54f 50%,#80c217 51%,#7cbc0a 100%);background:-ms-linear-gradient(-45deg,#9dd53a 0%,#a1d54f 50%,#80c217 51%,#7cbc0a 100%);background:linear-gradient(135deg,#9dd53a 0%,#a1d54f 50%,#80c217 51%,#7cbc0a 100%);filter:progid:DXImageTransform.Microsoft.gradient( startColorstr=#9dd53a, endColorstr=#7cbc0a,GradientType=1 );}
+.boton{text-align:center;}
+.boton a{color:#fff;cursor:pointer;display:block;font-weight:bold;font-size: 12px;}
+.boton .reinit{display:none;}
+.controles{margin:20px auto;text-align:center;}
+.memoria{text-align:center;}
+.memoria article{background:#ffb76b;border-radius:1em;box-shadow:rgba(0,0,0,0.9) 0 0 8px;cursor:inherit;display:inline-block;filter:none;height:5em;margin:1%;min-width:100px;opacity:.4;vertical-align:top;width:2%;}
+.memoria article span{display:none;font-size:1.5em;font-weight:bold;line-height:1.1em;margin:2em 0 0 0;}
+.retro{background:#b6dfed;border-bottom:2px solid #197199;border-top:2px solid #197199;color:#197199;display:none;margin-top:2em;width:100%;}
+.retro.incorrecto{background:#eaa6a6;border-bottom:2px solid #842222;border-top:2px solid #842222;color:#842222;}
+.retro p{display:block;margin:.5em 0 .5em 1em;width:calc(100% - 2em);}
+.cart{width: 100%;height: 75px; margin-top: -45px; border-radius: 20%;}
